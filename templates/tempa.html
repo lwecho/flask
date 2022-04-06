@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>路由测试</title>
+
+</head>
+<body>
+
+    <!--mlist is {{mlist | dore}} <br>-->
+
+    <!--{% for item in mlist %}-->
+    <!--<li>{{item}}</li>-->
+    <!--{% endfor %}<br>-->
+    <!--<br>-->
+
+    <!--{% for number in range(0,10) %}-->
+    <!--<li>{{number}}号</li>-->
+    <!--{% endfor %}<br>-->
+
+    {{user_id}}
+    <br>
+{% if vip == '0' %}
+    {{vip}}<br>
+    {{'您不是vip'}}
+{% elif vip == '1'%}
+    {{'您好'}}
+{% endif %}
+
+
+</body>
+</html>
